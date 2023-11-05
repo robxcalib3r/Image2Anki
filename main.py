@@ -9,9 +9,11 @@ from PIL import Image
 import tempfile
 import numpy as np
 
-# Initialization
-lang = 'bangla'
+# Initialization (Edit this part only)
+lang = 'bangla'                # Set your own language
 current_dir = 'C:/qna_test/'    # Give your own directory
+tess_dir = 'C:/Program Files/Tesseract-OCR'        # Set the tessaract directory
+
 Anki_model_seed_value = 2
 Anki_deck_seed_value = 3
 Anki_low_lim = 1000000000
@@ -154,7 +156,7 @@ qNa_deck = genanki.Deck(
 ### Main Running part ###
 if __name__ == '__main__':
     oa = AutoOCR(lang=lang)
-    oa.set_datapath('C:/Program Files/Tesseract-OCR')
+    oa.set_datapath(tess_dir)
 
     for file in glob.glob(current_dir + '*.JPG'):
         file = os.path.normpath(file)
