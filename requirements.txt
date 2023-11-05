@@ -1,0 +1,13 @@
+autoocr==0.0.3
+cached-property==1.5.2
+chevron==0.14.0
+colorama==0.4.6
+frozendict==2.3.8
+genanki==0.13.0
+keyboard==0.13.5
+numpy==1.26.1
+opencv-python==4.8.0.76
+packaging==23.2
+Pillow==10.1.0
+pytesseract==0.3.10
+PyYAML==6.0.1
