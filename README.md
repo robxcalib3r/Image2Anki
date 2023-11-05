@@ -11,3 +11,4 @@ N.B. Code is still in rough form and progress in ongoing so manual editing is ne
 3. Copy or remember the directory you have installed, and set the directory to ```tess_dir``` in the ```main.py```
 4. Still in rough form, so you have to edit the code to change the ``` current_dir ``` to your folder of images
 5. Change the ```lang``` to your preferred choice of Language. Here I used ```lang = 'bangla'``` to get bangla OCR
+6. Download the language traineddata of your language( Mine was Bengali ```ben.traineddata```) file from the https://github.com/tesseract-ocr/tessdata and paste it in the ```Tesseract directory -> tessdata``` folder
